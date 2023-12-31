@@ -3,7 +3,6 @@ package com.examen.room_database.data.entity.dao
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
 import com.examen.room_database.data.UserRegister
@@ -12,7 +11,7 @@ import com.examen.room_database.data.UserRegister
 interface RoomDao {
     // insert user details
     @Insert()
-    fun insertUsers(userRegister: UserRegister)
+    suspend fun insertUsers(userRegister: UserRegister)
     // update the user
     @Update()
     fun updateUser(userRegister: UserRegister)
