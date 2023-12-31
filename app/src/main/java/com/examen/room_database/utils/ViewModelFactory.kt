@@ -1,17 +1,17 @@
 package com.examen.room_database.utils
 
-import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.examen.room_database.data.database.DatabaseHelper
 import com.examen.room_database.viewmodel.UserViewModel
-import com.examen.room_database.viewmodel.repo.UserRepository
 
-class UserViewModelFactory(private val userRepository: UserRepository): ViewModelProvider.Factory {
+class ViewModelFactory(private val databasehelper: DatabaseHelper):
+    ViewModelProvider.NewInstanceFactory() {
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(UserViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
-            return UserViewModel(userRepository) as T
+            return UserViewModel(databasehelper) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class")
     }
