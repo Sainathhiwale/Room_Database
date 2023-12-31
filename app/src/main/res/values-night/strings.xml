@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Enter the Name</string>
+    <string name="email">Enter the Email\n</string>
+    <string name="password">Enter the Password\n</string>
+    <string name="register">Register</string>
+</resources>
