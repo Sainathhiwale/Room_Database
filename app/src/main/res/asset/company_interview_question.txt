@@ -1,0 +1,572 @@
+﻿
+
+Hashmap vs Hashtable 
+1. HashMap is non-synchronized. It is not thread-safe and can’t be shared between many threads without proper synchronization code whereas Hashtable is synchronized. It is thread-safe and can be shared with many threads. 
+2. HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value. 
+3. HashMap is generally preferred over HashTable if thread synchronization is not needed
+Why HashTable doesn’t allow null and HashMap do? 
+To successfully store and retrieve objects from a HashTable, the objects used as keys must implement the hashCode method and the equals method. Since null is not an object, it can’t implement these methods. HashMap is an advanced version and improvement on the Hashtable. HashMap was created later.
+
+Websym Solutions
+
+1>what is android activity lifecycle and method?
+2>what is fragment lifecyler?
+3>what is intent and type
+4>what is explicit intent and Implicit Intents and use
+5>how to publish apk over the google play store
+6>how to redues apk size?
+7>how to use different langaues set in app
+8>what is google map and use? how to intergate in android?
+9>
+
+Brillio Technologies
+Java
+1.what is oops in java tell me the name
+2. what is polymorphim? and there type
+3.what is method oveloading and method overiding?
+4.can i used static method in method oveloading and method overiding?
+5.what is interface and abstract class difference?
+6.can i create instanting interface if yes then how and if no what error will be throw
+7.what is singlton class how we can created?
+8.what is string and why is immutable?
+9.if i created Str = "ABC" and again inilize like as Str ="XYZ" what will happended
+10.can i create class as immutable if yes how and if no then why
+kotlin
+1.what is advantage of kotlin over using java?
+2.What are Coroutines in Kotlin?
+3.What are Higher-Order functions in Kotlin?
+4.what is data class in kotlin?
+5.What are extension functions in Kotlin?
+6.what is scealed class and use
+7.What is an infix function in Kotlin?
+ 
+android
+1.what is activity lifecycle
+2.what is android component? explain
+3.what is broadcast receiver?
+4.what is content provider?
+
+globant
+Java
+what is opps concept and explain using car, student anything
+what is singlton instance and write one example using Student class
+
+rishabhsoft.com 
+kotlin 
+what is scope fuction in kotlin
+what is dagger?
+what is rxjava
+java
+1.which is better way to implement thered like extend the thread or running thread
+2.we have activityA ,B,C,D,E in Activity E has two button back and finshed once we click back button goes to D and finished button click goes to Activity A?how
+3.how we can support multiple screen support in android and mutiple langauage?
+4.once i clicked app what will happended which activity will call
+5. once i clicked home what will call
+6.back stack click on app which activity method will call
+7.what is androidx
+8.how to implement migrations how to achive what is migrations in room why we do migrations ?
+
+
+Vcon
+what is opps explain
+what is difference between Abstract class and interface?
+what is service how to implement explain how many type of service? which thread service is run?
+what is broadcast receiver and how to implement explain what is type?
+what is Handler and looper -https://medium.com/@ankit.sinhal/handler-in-android-d138c1f4980e
+what is intent service why we use intent service -10 thread u can assigned run one by one using worker thread
+what is an activity and method if dialog is open what activity state will called ? if permisson dialog will open what activity state will called ? if i called dialog in onResume() method which activity method will be called?
+what is content provider and AIDL
+TechUgo
+what is difference between Serializable or Parcelable? 
+what is service 
+what is broadcast receiver
+
+Tata Business Hub
+what is Android App Bundles
+what is service tell ablut biref about service and useage
+what is jetpack in android tell the biref about it where you have used?
+what is difference between array and arraylist 
+what is linkedlist and arraylist difference.   https://www.javatpoint.com/difference-between-arraylist-and-linkedlist
+what is android activity lifecycle and method.
+what is oops tell me
+what is difference between Serializable or Parcelable? 
+what is navigation graph what is nested graph and mutiple graph.
+how to create service tell me create background service without using ui thread
+what is default value of arraylist
+what is difference between lateinilize and lazy inilize ?
+The lateinit keyword is used for late initialization of variables.
+
+HSBC
+what is difference between val and var
+what is access modificer in kotlin
+what is difference between protected and internal
+what is mvp and mvvm differenece and birf introduction
+what is process you can user if i assign the login task
+what is lateinit tell me
+what is unit testing 
+what is UI testing
+global quest company
+what is coroutine
+what is foreground service and background service
+Kotlin extension function and extension funtion libary
+what is service forground and background
+what is workmanager
+what is scope function in coroutine
+
+xyz company
+if i created private method in abstract class can i use that method in subclass that is possible
+what is thread how to start thread? what is difference bewteen extending the thread and Runnable thread
+what is arraylist vs linkedlist
+what is asyn vs synce
+what is try and catch block? can i use multiple catch in try block?
+if i open dialog which method of activity call?
+Is it possible to overload operators in Java? [duplicate]
+what is difference between view and viewgroup
+what is recyclerview work in internally.
+ 
+Globant question
+what is singleton instance how to create how avoid nobody access
+what is activity lifecycle and fragment lifecycle
+what is fragment without activity can i create fragment? without ui how to create fragment and what is use of that?
+what is inheritance 
+what is difference betweem abstract class and interface
+can i create the constructor in abstract class why we use constructor in abstract class
+what is difference between list and arraylist?
+what is linkedlist and how it work interally?
+what is arraylist how it work internally may i know default size of arraylist
+what is volatile in java
+what is service and intentservice
+what is asyntask and there method in android which method is running over the thread.
+what is recyclerview and listview why we use recyclerview over the listview.
+what is corutine and why we use
+what is app level starge in android - file, sharedpreference,room db sqlitedb.
+what is lunch and asyn in corountine difference 
+what is lunches mode in android 
+what is activity and fragment lifecylcer
+what is higher order fuction in kotlin please implement one sample
+find out second largest number in java
+what is asyntask and how to execute parellel exceution 
+what is builder and factory method design pattern and adabtable pattern - we use in retrofit and adapter recylerview
+
+
+carence company
+what is intent and types of intent?
+what is serialible and why maker interface provide empty method inside serialible interface.
+what is mvvm 
+how to pass data from fragment to activity.
+what is lunches mode in android how to use test case study it
+what is stack push and pop.
+what is fragment lifecycle and test case 
+https://medium.com/android-dev-hacks/android-interview-questions-and-answers-part-1-f913877d3a4e
+
+
+Ashwini@96
+Dagger
+@Module and @Provides annotation
+we use them to create machanism for providing dependencies.
+
+@Module
+public class MemberDataModule{
+
+@Provides
+@Singleton
+ MemberDataModule provideMemberDataModule(){
+  return new  MemberDataModule();
+}
+}
+how to know the dagger get dependencies - using @Module annotation
+
+@Provides
+this annotation marks the methods inside the module which provides the dependencies.
+
+
+@Inject
+this annotation is for requesting dependencies.you can used @Inject annotation inside activity and fragment service provider to request dependencies
+dagger can understand they needs dependencies
+note :this annotation tell the dagger about the dependence needed to be transferred to the dependent.
+there are three type of injection 1.constructor injection 2.field injection 3.method injection
+MainActivity{
+  @Inject MemberDataModule memberDataModule;
+}
+
+
+
+@Component
+this annotation is used to build the interface which act as a bridge between dependent and dependencies.
+
+@Singleton
+@Component(modules = MemberDataModule.class)
+public interface AppComponent{
+
+void inject MainActivity mainactivity;
+
+}
+
+
+@Singleton
+this annotation tell dagger create only one instance of the object
+it scope related annotation we create custom scope annotation
+
+
+
+
+Q>What is fragment and lifecyle and add replace remove fragment transcation ?
+https://vinodpattanshetti49.medium.com/fragment-lifecycle-while-doing-add-and-replace-6a3f084364af
+
+
+
+
+
+
+
+
+
+
+
+Constructor is a block of code which get initialised when the object is created.
+Arrays
+Collections
+1. Arrays r fixed in size and hence once we 
+created an array we are not allowed to 
+increase or decrease the size based on our 
+requirement.
+2. Memory point of view arrays are not 
+recommended to use 
+3. Performance point of view arrays are 
+recommended to use
+4. Arrays can hold only homogeneous 
+elements 
+5. Arrays can hold both primitives as well as 
+objects 
+6. For any requirement, there is no ready 
+method support compulsory programmer has 
+to code explicitly.
+
+1. Collections are growable in nature and 
+hence based on our requirement we can 
+increase or decrease the size.
+2. Memory point of view collections are 
+recommended to use.
+3. Performance point of view collections are 
+not recommended to use.
+4. Collections can hold both homogeneous 
+and heterogeneous elements.
+5. Collections can hold only objects.
+6. For every requirement ready made method 
+support is available. Being a programmer we 
+have to know how to use those methods and 
+we are not responsible to implement those.
+
+Explain about List interface?
+List interface is a child interface of Collection interface. This can be used to represent group 
+of individual objects in as a single entity where 
+ Duplicates are allowed
+ Insertion order is preserved
+Q10. Explain about Set interface?
+Set is a child interface of Collection interface. it can be used to represent a group of 
+individual objects as a single entity where
+ Duplicate objects are not allowed.
+ Insertion order is not preserved
+
+ What is difference between ArrayList and Linked List?
+ArrayList
+1. The underlying data structure is resizable or 
+growable array.
+2. This is Best choice if frequent operation is 
+retrieval and worst choice if frequent 
+operation is insertion or deletion in the 
+middle.
+3. This class implements Serializable , 
+Cloneable and RandomAccess interfaces.
+ LinkedList
+1. The underlying data structure is Double 
+Linked List.
+2. This is Best choice if frequent operation is 
+insertion or deletion in the middle and worst 
+choice if frequent operation is retrieval .
+3.This class implements Serializable , 
+Cloneable but not RandomAccess interface.
+
+Sqlite
+1.Deal with raw queries
+2.No Compile-time verification of raw queries
+3.lot of boilerplate code to convert between SQL queries and java data object
+4. sqlite API are low-level so more time more effort to build apps
+Room
+1. No raw queries
+2.Compile-time check of sqlite statements
+3.maps database object and java object without boilerplate code
+4. room when use with viewmodel and livedata makes it easy
+
+
+thread extends vs implement runnable
+1.a class can only extend one class in java
+2.Thread class then your class loses that option and it cannot extend another class
+3. if you extend Thread then they are tightly coupled.
+1.if you used Implement Runnable thread so your thread class you can extending other onother class.
+2.implement Runnable, both Task and Executor ( a thread that executes the task) are loosely coupled
+
+interfae -real example sumsung company ask to dell company give the support our mouse to dell loptops
+method overriding example-Netfilx change the requirement before they were using dvd cd play music picture now new requirement they want like live streaming song picture
+encapsulation - advantage - flexibility,maintainablity,security,protect data,data hiding,
+
+jetpack component
+what is viewbinding?
+unable in build.gradle file app level
+buildFeatures{
+  viewBinding = true
+}
+View binding works with your existing XML, and will generate a binding object for each layout in a module.
+note:You can use data binding and view binding in the same module.
+https://medium.com/androiddevelopers/use-view-binding-to-replace-findviewbyid-c83942471fc
+
+Overview of Navigation
+The Navigation Component consists of three key parts, working together in harmony. They are:
+
+Navigation Graph (New XML resource) - This is a resource that contains all navigation-related information in one centralized location. This includes all the places in your app, known as destinations, and possible paths a user could take through your app.
+NavHostFragment (Layout XML view) - This is a special widget you add to your layout. It displays different destinations from your Navigation Graph.
+NavController (Kotlin/Java object) - This is an object that keeps track of the current position within the navigation graph. It orchestrates swapping destination content in the NavHostFragment as you move through a navigation graph.
+
+https://developer.android.com/codelabs/android-navigation#0
+https://developer.android.com/codelabs/android-preferences-datastore#0
+https://developer.android.com/codelabs/android-room-with-a-view-kotlin#9
+https://developer.android.com/reference/android/app/Service
+
+https://camposha.info/android-examples/android-broadcastreceiver/
+
+https://fabcirablog.weebly.com/blog/archives/11-2019
+
+https://medium.com/@saad100104006/android-hsandle-multiple-asynctasks-ae54ccea938f
+
+bound Service
+https://androidmonks.com/bounded-service-in-android/
+
+
+2. Difference between ‘throw’ and ‘throws’ in Java Exception Handling?
+throw keyword is used to throw Exception from any method or static block whereas throws is used to indicate that which Exception can possibly be thrown by this method.
+
+
+q>Can I display or update UI from Service? If Yes then How ?
+https://medium.com/@anitaa_1990/how-to-update-an-activity-from-background-service-or-a-broadcastreceiver-6dabdb5cef74
+
+after interview asked this question
+What are the day-to-day responsibilities of the position?
+How has this position changed over time?
+Can you describe the working culture of the company?
+Do you provide professional development opportunities? ...
+What are some of the challenges I might face in this position?
+ 
+
+https://medium.com/@kreynaldi04/android-fundamentals-07-3-broadcast-receivers
+-3e9f2f9cfb40
+
+Asked Question
+What is room database and migration
+https://blog.mindorks.com/room-database-migrations
+what is high-order function in kotlin
+https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin
+What is extension function in kotlin
+https://blog.mindorks.com/learn-kotlin-extension-functions
+What is sealed class in kotlin
+https://blog.mindorks.com/learn-kotlin-sealed-classes
+What is  scope function in kotlin?
+https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply
+What is design pattern in android with kotlin 
+https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin
+What is co-routines in Kotlin
+https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide
+Parallel Multiple Network Calls using Kotlin Coroutines
+https://blog.mindorks.com/parallel-multiple-network-calls-using-kotlin-coroutines
+What is an infix function in kotlin
+An infix function is used to call the function without using any bracket or parenthesis. You need to use the infix keyword to use the infix function
+What is Inline  function in kotlin?
+https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin
+What is primary constructor and secondary constructor
+https://blog.mindorks.com/primary-and-secondary-constructors-in-kotlin
+What is Dagger2
+https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c
+What is Rxjava?
+https://www.androidhive.info/RxJava/android-getting-started-with-reactive-programming/
+What is android activity lifecycle 
+https://blog.mindorks.com/android-activity-lifecycle
+What is back stack in android activity
+https://blog.mindorks.com/android-task-and-back-stack-review-5017f2c18196
+What is or explain android architecture
+https://www.tutorialspoint.com/android/android_architecture.htm
+What is android jetpack component why we use
+https://blog.mindorks.com/what-is-android-jetpack-and-why-should-we-use-it
+https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/
+What is livedata
+https://blog.mindorks.com/understanding-livedata-in-android
+What is viewmodel?
+https://blog.mindorks.com/android-viewmodels-under-the-hood
+What is role of LiveData in ViewModel?
+https://blog.mindorks.com/understanding-livedata-in-android
+What is work-manager in android
+https://blog.mindorks.com/integrating-work-manager-in-android
+Difference between MVVM and MVP?
+
+What is android component 
+https://blog.mindorks.com/what-are-android-architecture-components
+What is service component in android
+https://blog.mindorks.com/service-vs-intentservice-in-android
+
+What is broadcast receiver In android
+https://medium.com/@kreynaldi04/android-fundamentals-07-3-broadcast-receivers-3e9f2f9cfb40
+What is service component in android
+https://imstudio.medium.com/android-service-all-in-one-part-1-overv-38241dda4500
+What is android lunch mode?
+https://medium.com/android-news/android-activity-launch-mode-e0df1aa72242#:~:text=Launch%20mode%20is%20an%20instruction%20for%20Android%20OS%20which%20specifies,Tasks
+
+How to start service once killed by user
+https://robertohuertas.com/2019/06/29/android_foreground_services/
+What is serialization and parcelable 
+http://findnerd.com/list/view/Parcelable-vs-Serializable/3086/
+What is difference between service and intent service
+https://blog.mindorks.com/service-vs-intentservice-in-android
+What is memory leak why it leaked reason
+https://medium.com/@amritlalsahu5/all-about-memory-leaks-in-android-7c0e5c8d679c
+What is broadcast receiver
+https://medium.com/@kreynaldi04/android-fundamentals-07-3-broadcast-receivers-3e9f2f9cfb40
+What is local broadcast receiver
+https://medium.com/android-news/local-broadcast-less-overhead-and-secure-in-android-cfa343bb05be
+
+What is handler how to use and implement?
+https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a
+
+ 
+
+
+
+
+                       Java
+What is difference between Hash-map and Hash-table
+https://www.javatpoint.com/difference-between-hashmap-and-hashtable
+
+What is difference between hashmap-hashset-hashtable
+http://javainfinite.com/java/hashmap-hashset-hashtable/
+What is Arraylist and default size of Arraylist and can I set size of Arraylist
+https://javagoal.com/internal-working-of-arraylist-in-java/#1
+What is difference between extend Thread and Implement Runnable
+https://www.java67.com/2016/01/7-differences-between-extends-thread-vs-implements-Runnable-java.html
+What is LinkedList ?
+https://javagoal.com/java-linkedlist/
+What is difference between ArrayList and LinkedList?
+https://javagoal.com/difference-between-arraylist-and-linkedlist/
+What is real world example for object oriented programming why we use?
+https://www.c-sharpcorner.com/UploadFile/cda5ba/object-oriented-programming-with-real-world-scenario/
+
+cross question in java
+
+Method overloading
+when a class has more then one method having the same name but with different parameter list that is known as method overloading in java
+in method overload can be done in two way
+1>By changing number of arguments
+2>by changing the data type
+A>Why Method Overloading is not possible by changing the return type of method only?
+
+if you return different data type in same method but parameter should be changes
+class Adder{  
+static int add(int a,int b){return a+b;}  
+static double add(int a,int b){return a+b;}  
+}  
+class TestOverloading3{  
+public static void main(String[] args){  
+System.out.println(Adder.add(11,11));//ambiguity  
+}}  
+Compile Time Error: method add(int,int) is already defined in class Adder
+B>can we overload java main method?
+yes by method overloading you can have any number of main method in class by method overloading but JVM calles main() method which is receives String as arugement only
+ex:
+class TestOveloading4{
+public static void main(String[] args){System.out.println("main with String[]");}  
+public static void main(String args){System.out.println("main with String");}  
+public static void main(){System.out.println("main without args");}  
+}  
+
+Method overriding what is it
+if subclass(child class) has the same method as declared in parent class it is known as method overriding
+uses -Method overriding is used for runtime polymorphism
+Rules for Java Method Overriding
+The method must have the same name as in the parent class
+The method must have the same parameter as in the parent class.
+There must be an IS-A relationship (inheritance).
+class Vehicle{
+void run(){
+ System.out.println("vehicle is running");
+}
+}
+class Bike extends Vehile{
+void run(){
+System.out.println("bike is running safely");
+}
+public static void main(String []args){
+Bike obj = new Bike();
+obj.run();
+}
+} output =Bike is running safely
+example real world -bank of rateof interest like as sbi,icici, axis
+A)Can we override static method?
+No, a static method cannot be overridden. It can be proved by runtime polymorphism.
+B)Why can we not override static method?
+C)Why can we not override static method?
+It is because the static method is bound with class whereas instance method is bound with an object. Static belongs to the class area, and an instance belongs to the heap area.
+D)Can we override java main method?
+No, because the main is a static method.
+
+
+==============================================================================================================================================
+Dagger-2 note
+
+What is means by Dependency?
+in programming the term dependency just means that one class uses another class.
+example
+
+class A     depends on ->                      class B
+            dependency of <-
+
+User                                           Address
+Recyclerviw                                    Adapter
+
+Injection simply means passing these dependencies from the outside class
+
+
+@Module
+this annotation marks the modules/classes
+@Provides
+this annotation marks the methods inside the modules, which provides the dependencies
+ note:@Module and @Provides annotations we use them to create a machanism for providing dependencies.
+@Inject
+this annotation is for requesting dependencies.
+note:@Inject this annotation tells the dagger about the dependencies needed to be transferred to the dependent.
+@Inject can be inject below fields
+1 Constructor injection
+2.field Injection
+3.Method Injection
+
+@Component
+this annotation is used to build the interface which acts as a bridge between dependent and dependencies.
+
+note: we can not inject private member class and varible in dagger
+
+@Module
+Annotates a class that contributes to the object graph.this annotation marks the methods inside the modules, which provides the dependencies	
+
+
+Differences between MVC and MVP
+Model View Controller
+Controllers are behavior based and can share multiple views.
+View can communicate directly with Model
+Model View Presenter
+View more separated from Model. The Presenter is the mediator between Model and View.
+Easier to create unit tests.
+Generally there is a one to one mapping between View and Presenter, with the possibility to use multiple Presenters for complex Views.
+Listen to user action and model updates.
+Updates model and view as well.
+improving testability and readability.
+Model
+In an application with a good layered architecture, this model would only be the gateway to the domain layer or business logic. See it as the provider of the data we want to display in the view. Model’s responsibilities include using APIs, caching data, managing databases and so on.
+View
+The View, usually implemented by an Activity, will contain a reference to the presenter. The only thing that the view will do is to call a method from the Presenter every time there is an interface action.
+Presenter
+The Presenter is responsible to act as the middle man between View and Model. It retrieves data from the Model and returns it formatted to the View. But unlike the typical MVC, it also decides what happens when you interact with the View.
